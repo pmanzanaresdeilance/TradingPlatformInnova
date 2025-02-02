@@ -1,0 +1,23 @@
+Design & Development Guidelines
+
+🔹 Visual Excellence: Every design request must be visually stunning, unique, and production-ready—avoid generic layouts. Webpages must have smooth interactions and a polished user experience.
+
+🔹 Frontend Stack:
+
+Use JSX + Tailwind CSS for styling.
+Use React hooks for logic.
+Use Lucide React for all icons.
+❌ Do not install additional UI libraries or icon packs unless explicitly requested.
+🔹 Media & Assets:
+
+Use Unsplash for stock images.
+Embed images using direct URLs in <img> tags—do not download or store them locally.
+🔹 Database & Backend:
+
+Supabase (PostgreSQL-based): Follow strict PostgreSQL syntax and best practices for all queries and database interactions.
+Fixing Migrations: If a policy exists, drop it first before fixing errors in migrations.
+🔹 Code Quality & Best Practices:
+
+No redundant code—avoid repeating declarations, export statements, or unnecessary definitions.
+Clear & optimized logic—no undefined or unused parameters.
+Simplicity over complexity—keep logic straightforward and efficient.
